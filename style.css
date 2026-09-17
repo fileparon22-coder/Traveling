@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(70, 232, 229);
+    color: rgb(29, 5, 86);
+}
+
+html{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 800px;
+    max-width: 1280px;
+}
+
+/*Fin Head*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+header figure{
+    width: 80px;
+    
+}
+
+header figure img{
+    width: 200%;
+}
+
+header nav {
+width: 70%;
+border: 3px solid greenyellow;
+text-align: right;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px
+}
+
+header nav li{
+    padding: 5px;
+}
+
+/*Fin header*/
+
+/*Main*/
+/* Selector de id #nombreID {}*/
+
+section{
+    border-top: 1px solid greenyellow;
+    margin-bottom: 1em;
+    /*em unidad de medida relativa. El tamano en pixels es  relativo al tamano de la fuente del contenedorpadre.
+    Ejemplo: font-size: 16px (1em=16px)*/
+}
+
+#hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero #text-hero{
+    position: absolute;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px;
+}
+
+#hero #background-hero img{
+    width: 100%;
+}
+
+#hero .buttom-container{
+    text-align: center;
+}
+
+#hero .button-hero{
+    display: inline-block;
+    width: 200px;
+    background-color: aquamarine;
+    color: brown;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Fin sect
+on hero*/
+/*fin main*/
+
+#blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#blog .article-blog{
+    display: flex;
+    width: 100%;
+    border: 2px solid green;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#blog .article-blog figure {
+    width: 1500%;
+    margin: 10px;
+}
+
+#blog .article-blog figure img{
+    width: 100%;
+}
+
+#gallery figure img{
+    width: 100%;
+}
